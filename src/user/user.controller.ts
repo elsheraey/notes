@@ -4,11 +4,11 @@ import { CurrentUser } from '../auth/decorator';
 import { JwtGuard } from '../auth/guard';
 
 @UseGuards(JwtGuard)
-@Controller("users")
+@Controller('users')
 export class UserController {
   // @UseGuards(JwtGuard)
-  @Get("me")
+  @Get('me')
   getMe(@CurrentUser() user: User) {
     return user;
   }
-} 
+}

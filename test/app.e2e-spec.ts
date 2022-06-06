@@ -1,11 +1,11 @@
-import { ValidationPipe } from "@nestjs/common";
-import { NestApplication } from "@nestjs/core";
-import { Test } from "@nestjs/testing";
-import { AppModule } from "../src/app.module";
+import { ValidationPipe } from '@nestjs/common';
+import { NestApplication } from '@nestjs/core';
+import { Test } from '@nestjs/testing';
+import { AppModule } from '../src/app.module';
 
 let app: NestApplication;
 
-describe("App e2e", () => {
+describe('App e2e', () => {
   beforeAll(async () => {
     const moduleRef = await Test.createTestingModule({
       imports: [AppModule],
@@ -20,5 +20,5 @@ describe("App e2e", () => {
     app.close();
   });
 
-  it.todo("should pass");
+  it.todo('should pass');
 });
