@@ -5,6 +5,7 @@ import { PrismaService } from '../src/prisma/prisma.service';
 import { AppModule } from '../src/app.module';
 import * as pactum from 'pactum';
 import { AuthDTO } from 'src/auth/dto/auth.dto';
+import { EditUserDTO } from 'src/user/dto';
 
 let app: NestApplication;
 let prisma: PrismaService;
@@ -73,25 +74,53 @@ describe('App e2e', () => {
     describe('Signin', () => {
       // You can do the same for signin
 
-      it('should sign', () => {
+      it('should sign in', () => {
         return pactum
           .spec()
           .post('auth/signin')
           .withBody(dto)
-          .expectStatus(200);
+          .expectStatus(200)
+          .stores('userAt', 'access_token');
       });
     });
   });
 
-  // describe('User', () => {
-  //   describe('Get me', () => {});
-  //   describe('Edit user', () => {});
-  // });
+  describe('User', () => {
+    describe('Get me', () => {
+      it('should get current user', () => {
+        return pactum
+          .spec()
+          .get('users/me')
+          .withHeaders({
+            Authorization: 'Bearer $S{userAt}',
+          })
+          .expectStatus(200);
+      });
+    });
+
+    describe('Edit user', () => {
+      it('should edit user', () => {
+        const dto: EditUserDTO = {
+          firstName: 'Mourad',
+        };
+        return pactum
+          .spec()
+          .patch('users')
+          .withHeaders({
+            Authorization: 'Bearer $S{userAt}',
+          })
+          .withBody(dto)
+          .expectStatus(200)
+          .expectBodyContains(dto.firstName);
+      });
+    });
+  });
 
   // describe('Bookmarks', () => {
   //   describe('Create bookmarks', () => {});
   //   describe('Get bookmarks', () => {});
-  //   describe('Get bookmarks by ID', () => {});
-  //   describe('Delete bookmark', () => {});
+  //   describe('Get bookmark by id', () => {});
+  //   describe('Edit bookmark by id', () => {});
+  //   describe('Delete bookmark by id', () => {});
   // });
 });
