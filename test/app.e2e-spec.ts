@@ -83,15 +83,15 @@ describe('App e2e', () => {
     });
   });
 
-  describe('User', () => {
-    describe('Get me', () => {});
-    describe('Edit user', () => {});
-  });
+  // describe('User', () => {
+  //   describe('Get me', () => {});
+  //   describe('Edit user', () => {});
+  // });
 
-  describe('Bookmarks', () => {
-    describe('Create bookmarks', () => {});
-    describe('Get bookmarks', () => {});
-    describe('Get bookmarks by ID', () => {});
-    describe('Delete bookmark', () => {});
-  });
+  // describe('Bookmarks', () => {
+  //   describe('Create bookmarks', () => {});
+  //   describe('Get bookmarks', () => {});
+  //   describe('Get bookmarks by ID', () => {});
+  //   describe('Delete bookmark', () => {});
+  // });
 });
