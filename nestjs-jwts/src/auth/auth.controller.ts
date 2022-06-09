@@ -9,8 +9,8 @@ import {
 } from '@nestjs/common';
 import { AuthGuard } from '@nestjs/passport';
 import { Request } from 'express';
-import { GetCurrentUser } from 'src/common/decorators';
-import { AtGuard, RtGuard } from 'src/common/guards';
+import { GetCurrentUser, Public } from '../common/decorators';
+import { AtGuard, RtGuard } from '../common/guards';
 import { AuthService } from './auth.service';
 import { AuthDto } from './dto';
 import { Tokens } from './types';
@@ -19,12 +19,14 @@ import { Tokens } from './types';
 export class AuthController {
   constructor(private authService: AuthService) {}
 
+  @Public()
   @Post('local/signup')
   @HttpCode(HttpStatus.CREATED)
   signupLocal(@Body() dto: AuthDto): Promise<Tokens> {
     return this.authService.signupLocal(dto);
   }
 
+  @Public()
   @Post('local/signin')
   @HttpCode(HttpStatus.OK)
   signinLocal(@Body() dto: AuthDto): Promise<Tokens> {
@@ -38,6 +40,7 @@ export class AuthController {
     this.authService.logout(userId);
   }
 
+  @Public()
   @UseGuards(RtGuard)
   @Post('refresh')
   refreshTokens(
