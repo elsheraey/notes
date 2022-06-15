@@ -7,11 +7,11 @@ This is a note taking repo. that I might continue to update as I learn more abou
 - [VSCode Settings.json](#vscode-settings)
 - [Insomnia Tips](#insomnia-tips)
 
-## Main Resources to learn NestJS:
+## Main Resources to learn NestJS
 - Their neat [official documentation](https://docs.nestjs.com).
 - Their active [discord](https://discord.com/invite/nestjs) channel. 
 
-## Other resources I found useful:
+## Other resources I found useful
 - [NestJs Course for Beginners - Create a REST API](https://youtu.be/GHTA143_b-s)
 - [NestJs JWT - Access Tokens & Refresh Tokens - Ultimate Guide](https://youtu.be/uAKzFhE3rxU?list=PLNTXksYYFsn8Dz2xrFYrMqEO1buLodr6P)
 - [NestJs Application to upload/download file from GCP cloud storage](https://kuros.in/typescript/nestjs-upload-download-file-from-cloud-storage)
@@ -20,7 +20,7 @@ This is a note taking repo. that I might continue to update as I learn more abou
 - [Insomnia](https://insomnia.rest)
 - [argon2](https://www.npmjs.com/package/argon2)
 
-## Kickstart a NestJS project with Prisma:
+## Kickstart a NestJS project with Prisma
 
 1- Create your project and you can follow with a cleanup.
 ```
@@ -41,7 +41,7 @@ yarn prisma init
 yarn prisma migrate dev
 ```
 
-5- Add the following validation pipe to `main.ts` which I believe to be a good practice.
+5- Add the following [validation pipe](https://docs.nestjs.com/techniques/validation).
 ```
 app.useGlobalPipes(new ValidationPipe({ whitelist: true }));
 ```
@@ -63,7 +63,7 @@ The following settings.json saved me a lot of headache but make sure the right e
 }
 ```
 
-## [Insomnia](https://insomnia.rest) Tips:
+## [Insomnia](https://insomnia.rest) Tips
 Things I found helpful when using Insomnia:
 - To make use of the environment variables.
 - To automate authentication per request, for example: you can fetch bearer tokens from the Login request response.
