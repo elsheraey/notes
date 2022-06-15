@@ -17,7 +17,7 @@ This is a note taking repo. that I might continue to update as I learn more abou
 - [NestJs Application to upload/download file from GCP cloud storage](https://kuros.in/typescript/nestjs-upload-download-file-from-cloud-storage)
 - [argon2](https://www.npmjs.com/package/argon2)
 - [Prisma vs TypeORM](https://www.prisma.io/docs/concepts/more/comparisons/prisma-and-typeorm)
-- [Prisma Middleware]()https://www.prisma.io/docs/concepts/components/prisma-client/middleware
+- [Prisma Middleware](https://www.prisma.io/docs/concepts/components/prisma-client/middleware)
 - [Insomnia](https://insomnia.rest)
 
 ## Kickstart a NestJS project with Prisma:
