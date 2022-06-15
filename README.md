@@ -1,4 +1,4 @@
-# learning-nestjs
+# study-notes-nestjs
 This is a note taking repo. that I might continue to update as I learn more about NestJS.
  
 - [Main Resources to learn NestJS](#main-resources-to-learn-nestjs)  
