@@ -15,10 +15,10 @@ This is a note taking repo. that I might continue to update as I learn more abou
 - [NestJs Course for Beginners - Create a REST API](https://youtu.be/GHTA143_b-s)
 - [NestJs JWT - Access Tokens & Refresh Tokens - Ultimate Guide](https://youtu.be/uAKzFhE3rxU?list=PLNTXksYYFsn8Dz2xrFYrMqEO1buLodr6P)
 - [NestJs Application to upload/download file from GCP cloud storage](https://kuros.in/typescript/nestjs-upload-download-file-from-cloud-storage)
-- [argon2](https://www.npmjs.com/package/argon2)
 - [Prisma vs TypeORM](https://www.prisma.io/docs/concepts/more/comparisons/prisma-and-typeorm)
 - [Prisma Middleware](https://www.prisma.io/docs/concepts/components/prisma-client/middleware)
 - [Insomnia](https://insomnia.rest)
+- [argon2](https://www.npmjs.com/package/argon2)
 
 ## Kickstart a NestJS project with Prisma:
 
