@@ -8,6 +8,7 @@ This is a note taking repo. that I might continue to update as I learn more abou
 - [Insomnia Tips](#insomnia-tips)
 
 ## Main Resources to learn NestJS
+- [NestJS in 100 Seconds](https://youtu.be/0M8AYU_hPas)
 - Their neat [official documentation](https://docs.nestjs.com).
 - Their active [discord](https://discord.com/invite/nestjs) channel. 
 
