@@ -19,6 +19,7 @@ This is a note taking repo. that I might continue to update as I learn more abou
 - [Prisma Middleware](https://www.prisma.io/docs/concepts/components/prisma-client/middleware)
 - [Insomnia](https://insomnia.rest)
 - [argon2](https://www.npmjs.com/package/argon2)
+- [Deploy NestJS with Prisma to Heroku](https://notiz.dev/blog/deploy-nestjs-with-prisma-to-heroku)
 
 ## Kickstart a NestJS project with Prisma
 
