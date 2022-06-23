@@ -24,6 +24,7 @@ This is a note taking repo. that I might continue to update as I learn more abou
 - [Insomnia](https://insomnia.rest)
 - [argon2](https://www.npmjs.com/package/argon2)
 - [Deploy NestJS with Prisma to Heroku](https://notiz.dev/blog/deploy-nestjs-with-prisma-to-heroku)
+- [How to fix docker: Got permission denied issue](https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue)
 
 ## Kickstart a NestJS project with Prisma
 
