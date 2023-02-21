@@ -2,7 +2,10 @@
 Some notes and resources around CSS flexbox.
 
 ## Notes:
+
+### The Net Ninja CSS Flexbox Tutorial Notes:
 - Easier than playing with floats and doing a clear fix.
+- Flex boxes are uni-directional and work over one dimension.
 - Flex items default behavior is stacking left to right.
 - `flex-grow` sets the growth rate for each flex item.
 - `flex-shrink` sets the shrinking rate for each flex item.
