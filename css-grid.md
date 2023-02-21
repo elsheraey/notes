@@ -3,7 +3,7 @@ Some notes and resources around CSS grid.
 
 ## Notes:
 
-### The Net Ninja CSS Flexbox Tutorial:
+### The Net Ninja CSS Grid Tutorial:
 - You make use of grids with `display: grid`.
 - Grids are 2-dimensional and consist of rows and columns.
 - `grid-template-columns: 30% 20% 50%` creates 3 columns with the given fractions. 
