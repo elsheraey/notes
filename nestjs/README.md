@@ -1,5 +1,5 @@
 # study-notes-nestjs
-This is a note taking repo. that I might continue to update as I learn more about NestJS.
+Some notes and resources around NestJS.
  
 - [Main Resources to learn NestJS](#main-resources-to-learn-nestjs)  
 - [Other resources I found useful](#other-resources-i-found-useful)
