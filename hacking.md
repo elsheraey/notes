@@ -1,4 +1,14 @@
-# disassemblers-decompilers
+# hacking
+
+## Cloud 
+
+- [Hacking The Cloud](https://hackingthe.cloud)
+
+## Applications
+
+- [Frida](https://frida.re)
+
+## Disassemblers / Decompilers
 
 - [IDA Hex Rays](https://hex-rays.com/ida-pro)
 - [Ghidra](https://ghidra-sre.org)
