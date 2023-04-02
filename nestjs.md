@@ -1,4 +1,4 @@
-# study-notes-nestjs
+# nestjs
 Some notes and resources around NestJS.
  
 - [Main Resources to learn NestJS](#main-resources-to-learn-nestjs)  
