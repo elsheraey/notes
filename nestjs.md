@@ -25,6 +25,7 @@ Some notes and resources around NestJS.
 - [argon2](https://www.npmjs.com/package/argon2)
 - [Deploy NestJS with Prisma to Heroku](https://notiz.dev/blog/deploy-nestjs-with-prisma-to-heroku)
 - [How to fix docker: Got permission denied issue](https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue)
+- [NestJS - How to use .env variables in main app module file for database connection](https://stackoverflow.com/questions/63285055/nestjs-how-to-use-env-variables-in-main-app-module-file-for-database-connecti)
 
 ## Kickstart a NestJS project with Prisma
 
