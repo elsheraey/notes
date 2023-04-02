@@ -1,0 +1,15 @@
+# blogs
+
+- [Google Research](https://research.google)
+- [Meta Research](https://research.facebook.com)
+- [Engineering at Meta](https://engineering.fb.com)
+- [AWS Architecture Blog](https://aws.amazon.com/blogs/architecture)
+- [Amazon Science](https://www.amazon.science/blog)
+- [THE NETFLIX TECH BLOG](https://netflixtechblog.com)
+- [Uber Blog](https://www.uber.com/en-EG/blog/engineering)
+- [Engineering at Quora](https://quoraengineering.quora.com)
+- [The Databricks Blog](https://www.databricks.com/blog/category/engineering)
+- [Pinterest Engineering](https://medium.com/@Pinterest_Engineering)
+- [Blackrock Engineering](https://medium.com/blackrock-engineering)
+- [Lyft Engineering](https://eng.lyft.com)
+- [Salesforce Engineering](https://engineering.salesforce.com)
